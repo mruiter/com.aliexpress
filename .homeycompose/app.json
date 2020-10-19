@@ -1,0 +1,24 @@
+{
+  "id": "com.aliexpress",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "name": {
+    "en": "com.aliexpress.zigbee"
+  },
+  "description": {
+    "en": "Zigbee Support for cheap Ali Express devices"
+  },
+  "category": [
+    "climate"
+  ],
+  "permissions": [],
+  "images": {
+    "large": "/assets/images/large.png",
+    "small": "/assets/images/small.png"
+  },
+  "author": {
+    "name": "Marco Ruiter",
+    "email": "mruiter@tuxweb.nl"
+  }
+}

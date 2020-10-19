@@ -1,0 +1,12 @@
+{
+  "name": "com.aliexpress",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "homey": "^2.8.0"
+  },
+  "dependencies": {
+    "homey-zigbeedriver": "^1.6.2",
+    "zigbee-clusters": "^1.4.0"
+  }
+}

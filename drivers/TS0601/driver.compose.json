@@ -1,0 +1,41 @@
+{
+  "name": {
+    "en": "Ali Express Heatvalve Zigbee"
+  },
+  "class": "sensor",
+  "capabilities": [
+    "measure_battery",
+    "measure_temperature",
+    "alarm_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AA"
+    ]
+  },
+  "zigbee": {
+    "manufacturerName": "_TZE200_ckud7u2l",
+    "productId": "TS0601",
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+		  4,
+		  5,
+		  61184
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Press the Home button 5 seconds until you can select the wifi icon with the + . When its blinking push the Home button to confirm.",
+        "nl": "Druk de Home knop 5 seconden in todat je met de + knop het wifi icoon kan selecteren. Als deze knippert bevestig dit met een druk op de Home knop."
+      }
+    }
+  },
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  }
+}
