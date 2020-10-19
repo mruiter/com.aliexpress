@@ -5,7 +5,7 @@
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "name": {
-    "en": "AliExpress Cheap Zigbee Devices support APP"
+    "en": "com.aliexpress.zigbee"
   },
   "description": {
     "en": "Zigbee Support for cheap Ali Express devices"
@@ -47,7 +47,8 @@
               0,
               4,
               5,
-              61184
+              61184,
+              65502
             ]
           }
         },

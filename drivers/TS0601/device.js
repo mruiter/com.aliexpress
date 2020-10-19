@@ -3,10 +3,10 @@
 'use strict';
 
 const { ZigBeeDevice } = require('homey-zigbeedriver');
-class TS0601r extends ZigBeeDevice {
+class TS0601 extends ZigBeeDevice {
 
   async onNodeInit({ zclNode }) {
-     enable debugging
+     //enable debugging
      this.enableDebug();
 
     // print the node's info to the console
