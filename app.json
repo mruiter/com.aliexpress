@@ -25,6 +25,72 @@
   "drivers": [
     {
       "name": {
+        "en": "Dimmer 1 D01-TRIAC-2C-LN"
+      },
+      "class": "light",
+      "capabilities": [
+        "onoff",
+        "dim"
+      ],
+      "zigbee": {
+        "manufacturerName": "_TYZB01_v8gtiaed",
+        "productId": "TS110F",
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              4,
+              5,
+              6,
+              8
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          },
+          "2": {
+            "clusters": [
+              6,
+              8
+            ],
+            "bindings": [
+              6,
+              8
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/QS-ZIGBEE-D01-TRIAC-2C-LN/assets/icon.svg",
+          "instruction": {
+            "en": "Press the Home button 5 seconds until you can select the wifi icon with the + . When its blinking push the Home button to confirm.",
+            "nl": "Druk de Home knop 5 seconden in todat je met de + knop het wifi icoon kan selecteren. Als deze knippert bevestig dit met een druk op de Home knop."
+          }
+        },
+        "devices": {
+          "dimmer2": {
+            "capabilities": [
+              "onoff",
+              "dim"
+            ],
+            "icon": "/drivers/QS-ZIGBEE-D01-TRIAC-2C-LN/assets/icon2.svg",
+            "name": {
+              "en": "Dimmer 2 D01-TRIAC-2C-LN"
+            },
+            "settings": []
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/QS-ZIGBEE-D01-TRIAC-2C-LN/assets/images/large.png",
+        "small": "/drivers/QS-ZIGBEE-D01-TRIAC-2C-LN/assets/images/small.png"
+      },
+      "id": "QS-ZIGBEE-D01-TRIAC-2C-LN",
+      "settings": []
+    },
+    {
+      "name": {
         "en": "Ali Express Heatvalve Zigbee"
       },
       "class": "sensor",
