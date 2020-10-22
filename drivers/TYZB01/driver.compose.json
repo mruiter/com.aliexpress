@@ -1,0 +1,46 @@
+{
+  "name": {
+    "en": "Ali Express Valve Controller Zigbee"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff"
+  ],
+  "zigbee": {
+    "manufacturerName": "_TYZB01_ymcdbl3u",
+    "productId": "TS0111",
+    "endpoints": {
+      "1": {
+        "clusters": [
+          0,
+		  3,
+		  4,
+		  5,
+		  6,
+		  1794,
+		  2820
+        ],
+        "bindings": [
+          0,
+		  3,
+		  4,
+		  5,
+		  6,
+		  1794,
+		  2820
+        ]
+      }
+    },
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/icon.svg",
+      "instruction": {
+        "en": "Press the Home button 5 seconds until you can select the wifi icon with the + . When its blinking push the Home button to confirm.",
+        "nl": "Druk de Home knop 5 seconden in todat je met de + knop het wifi icoon kan selecteren. Als deze knippert bevestig dit met een druk op de Home knop."
+      }
+    }
+  },
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  }
+}

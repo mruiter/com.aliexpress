@@ -2,12 +2,61 @@
   "name": {
     "en": "Ali Express Heatvalve Zigbee"
   },
-  "class": "sensor",
+  "class": "thermostat",
   "capabilities": [
     "measure_battery",
+    "target_temperature",
     "measure_temperature",
-    "alarm_battery"
+    "heating_demand"
   ],
+  "capabilitiesOptions": {
+    "target_temperature": {
+      "min": 4,
+      "max": 28,
+      "step": 0.5
+    },
+    "measure_temperature": {
+      "title": {
+        "en": "Room",
+        "nl": "Kamer",
+        "de": "Raum"
+      }
+    }
+  },
+  "mobile": {
+    "components": [
+      {
+        "id": "icon",
+        "capabilities": []
+      },
+      {
+        "id": "battery",
+        "capabilities": [
+          "measure_battery"
+        ]
+      },
+      {
+        "id": "sensor",
+        "capabilities": [
+          "measure_temperature",
+          "heating_demand"
+        ],
+        "options": {
+          "icons": {
+            "heating_demand": "{{driverAssetsPath}}/heating.svg"
+          },
+          "showTitle": true
+        }
+      },
+      {
+        "id": "thermostat",
+        "capabilities": [
+          "target_temperature"
+        ]
+      }
+    ]
+  },  
+  
   "energy": {
     "batteries": [
       "AA"
@@ -22,8 +71,13 @@
           0,
 		  4,
 		  5,
-		  61184,
-		  65502
+		  61184
+        ],
+        "bindings": [
+          0,
+		  4,
+		  5,
+		  61184
         ]
       }
     },

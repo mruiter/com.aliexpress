@@ -1,0 +1,17 @@
+{
+  "title": {
+    "en": "Heating demand",
+    "nl": "Verwarmingsvraag",
+    "de": "Heizbedarf"
+  },
+  "type": "number",
+  "getable": true,
+  "setable": false,
+  "insights": true,
+  "units": {
+    "en": "%"
+  },
+  "uiComponent": "sensor",
+  "uiQuickAction": false,
+  "icon": "/assets/heating.svg"
+}
